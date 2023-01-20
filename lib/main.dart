@@ -341,7 +341,7 @@ class _Settings_uiState extends State<Settings_ui> {
                   children: [
                     Row(
                       children: const [
-                        Icon(CupertinoIcons.globe),
+                        Icon(CupertinoIcons.globe,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Language",
@@ -355,6 +355,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         ),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -366,7 +367,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: const [
-                        Icon(CupertinoIcons.cloud),
+                        Icon(CupertinoIcons.cloud,color:Colors.grey),
                         SizedBox(width: 20),
                         Text(
                           "Environment",
@@ -380,6 +381,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         ),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -409,7 +411,7 @@ class _Settings_uiState extends State<Settings_ui> {
                   children: [
                     Row(
                       children: const [
-                        Icon(CupertinoIcons.phone),
+                        Icon(CupertinoIcons.phone,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Phone number",
@@ -418,6 +420,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         Spacer(),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -429,8 +432,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: const [
-// const Icon(Icons.email_outlined),
-                        Icon(CupertinoIcons.mail),
+                        Icon(CupertinoIcons.mail,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Email",
@@ -439,6 +441,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         Spacer(),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -450,7 +453,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: const [
-                        Icon(Icons.logout),
+                        Icon(Icons.logout,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Sign out",
@@ -459,6 +462,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         Spacer(),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -488,7 +492,7 @@ class _Settings_uiState extends State<Settings_ui> {
                   children: [
                     Row(
                       children: [
-                        const Icon(Icons.phonelink_lock),
+                        const Icon(Icons.phonelink_lock,color:Colors.grey,),
                         const SizedBox(width: 10),
                         const Text(
                           "Lock app in background",
@@ -513,7 +517,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: [
-                        const Icon(Icons.fingerprint),
+                        const Icon(Icons.fingerprint,color:Colors.grey,),
                         const SizedBox(width: 20),
                         const Text(
                           "Use fingerprint",
@@ -538,7 +542,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: [
-                        const Icon(Icons.lock),
+                        const Icon(Icons.lock,color:Colors.grey,),
                         const SizedBox(width: 20),
                         const Text(
                           "Change password",
@@ -584,7 +588,7 @@ class _Settings_uiState extends State<Settings_ui> {
                   children: [
                     Row(
                       children: const [
-                        Icon(Icons.book_outlined),
+                        Icon(Icons.book_outlined,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Terms of Service",
@@ -593,6 +597,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         Spacer(),
                         Icon(
                           CupertinoIcons.right_chevron,
+                            color:Colors.grey,
                           size: 20,
                         )
                       ],
@@ -604,7 +609,7 @@ class _Settings_uiState extends State<Settings_ui> {
                     ),
                     Row(
                       children: const [
-                        Icon(Icons.collections_bookmark),
+                        Icon(Icons.collections_bookmark,color:Colors.grey,),
                         SizedBox(width: 20),
                         Text(
                           "Open source licenses",
@@ -613,6 +618,7 @@ class _Settings_uiState extends State<Settings_ui> {
                         Spacer(),
                         Icon(
                           CupertinoIcons.right_chevron,
+                          color: Colors.grey,
                           size: 20,
                         )
                       ],
